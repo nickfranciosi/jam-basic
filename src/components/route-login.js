@@ -1,6 +1,6 @@
 import React from "react";
 import { useIdentityContext } from "react-netlify-identity";
-import navigate from "gatsby";
+import { navigate } from "gatsby";
 
 const Login = ({ showModal }) => {
   const identity = useIdentityContext();
